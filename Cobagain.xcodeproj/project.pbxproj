@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBE11FD19B993EA003E4235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBE11FC19B993EA003E4235 /* Foundation.framework */; };
+		CEBE11FF19B993EA003E4235 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBE11FE19B993EA003E4235 /* CoreGraphics.framework */; };
+		CEBE120119B993EA003E4235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBE120019B993EA003E4235 /* UIKit.framework */; };
+		CEBE120719B993EA003E4235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBE120519B993EA003E4235 /* InfoPlist.strings */; };
+		CEBE120919B993EA003E4235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE120819B993EA003E4235 /* main.m */; };
+		CEBE120D19B993EA003E4235 /* CobagainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE120C19B993EA003E4235 /* CobagainAppDelegate.m */; };
+		CEBE121319B993EA003E4235 /* CobagainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE121219B993EA003E4235 /* CobagainViewController.m */; };
+		CEBE121519B993EA003E4235 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBE121419B993EA003E4235 /* Images.xcassets */; };
+		CEBE121C19B993EA003E4235 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBE121B19B993EA003E4235 /* XCTest.framework */; };
+		CEBE121D19B993EA003E4235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBE11FC19B993EA003E4235 /* Foundation.framework */; };
+		CEBE121E19B993EA003E4235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBE120019B993EA003E4235 /* UIKit.framework */; };
+		CEBE122619B993EA003E4235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBE122419B993EA003E4235 /* InfoPlist.strings */; };
+		CEBE122819B993EA003E4235 /* CobagainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE122719B993EA003E4235 /* CobagainTests.m */; };
+		CEBE123219B99473003E4235 /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBE123119B99473003E4235 /* ButtonView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBE121F19B993EA003E4235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBE11F119B993EA003E4235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBE11F819B993EA003E4235;
+			remoteInfo = Cobagain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBE11F919B993EA003E4235 /* Cobagain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cobagain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBE11FC19B993EA003E4235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEBE11FE19B993EA003E4235 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEBE120019B993EA003E4235 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEBE120419B993EA003E4235 /* Cobagain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cobagain-Info.plist"; sourceTree = "<group>"; };
+		CEBE120619B993EA003E4235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEBE120819B993EA003E4235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBE120A19B993EA003E4235 /* Cobagain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cobagain-Prefix.pch"; sourceTree = "<group>"; };
+		CEBE120B19B993EA003E4235 /* CobagainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CobagainAppDelegate.h; sourceTree = "<group>"; };
+		CEBE120C19B993EA003E4235 /* CobagainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CobagainAppDelegate.m; sourceTree = "<group>"; };
+		CEBE121119B993EA003E4235 /* CobagainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CobagainViewController.h; sourceTree = "<group>"; };
+		CEBE121219B993EA003E4235 /* CobagainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CobagainViewController.m; sourceTree = "<group>"; };
+		CEBE121419B993EA003E4235 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEBE121A19B993EA003E4235 /* CobagainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobagainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBE121B19B993EA003E4235 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEBE122319B993EA003E4235 /* CobagainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CobagainTests-Info.plist"; sourceTree = "<group>"; };
+		CEBE122519B993EA003E4235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEBE122719B993EA003E4235 /* CobagainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CobagainTests.m; sourceTree = "<group>"; };
+		CEBE123119B99473003E4235 /* ButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBE11F619B993EA003E4235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE11FF19B993EA003E4235 /* CoreGraphics.framework in Frameworks */,
+				CEBE120119B993EA003E4235 /* UIKit.framework in Frameworks */,
+				CEBE11FD19B993EA003E4235 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE121719B993EA003E4235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE121C19B993EA003E4235 /* XCTest.framework in Frameworks */,
+				CEBE121E19B993EA003E4235 /* UIKit.framework in Frameworks */,
+				CEBE121D19B993EA003E4235 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBE11F019B993EA003E4235 = {
+			isa = PBXGroup;
+			children = (
+				CEBE120219B993EA003E4235 /* Cobagain */,
+				CEBE122119B993EA003E4235 /* CobagainTests */,
+				CEBE11FB19B993EA003E4235 /* Frameworks */,
+				CEBE11FA19B993EA003E4235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBE11FA19B993EA003E4235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE11F919B993EA003E4235 /* Cobagain.app */,
+				CEBE121A19B993EA003E4235 /* CobagainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBE11FB19B993EA003E4235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE11FC19B993EA003E4235 /* Foundation.framework */,
+				CEBE11FE19B993EA003E4235 /* CoreGraphics.framework */,
+				CEBE120019B993EA003E4235 /* UIKit.framework */,
+				CEBE121B19B993EA003E4235 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBE120219B993EA003E4235 /* Cobagain */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE120B19B993EA003E4235 /* CobagainAppDelegate.h */,
+				CEBE120C19B993EA003E4235 /* CobagainAppDelegate.m */,
+				CEBE123119B99473003E4235 /* ButtonView.xib */,
+				CEBE121119B993EA003E4235 /* CobagainViewController.h */,
+				CEBE121219B993EA003E4235 /* CobagainViewController.m */,
+				CEBE121419B993EA003E4235 /* Images.xcassets */,
+				CEBE120319B993EA003E4235 /* Supporting Files */,
+			);
+			path = Cobagain;
+			sourceTree = "<group>";
+		};
+		CEBE120319B993EA003E4235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE120419B993EA003E4235 /* Cobagain-Info.plist */,
+				CEBE120519B993EA003E4235 /* InfoPlist.strings */,
+				CEBE120819B993EA003E4235 /* main.m */,
+				CEBE120A19B993EA003E4235 /* Cobagain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBE122119B993EA003E4235 /* CobagainTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE122719B993EA003E4235 /* CobagainTests.m */,
+				CEBE122219B993EA003E4235 /* Supporting Files */,
+			);
+			path = CobagainTests;
+			sourceTree = "<group>";
+		};
+		CEBE122219B993EA003E4235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE122319B993EA003E4235 /* CobagainTests-Info.plist */,
+				CEBE122419B993EA003E4235 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBE11F819B993EA003E4235 /* Cobagain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBE122B19B993EA003E4235 /* Build configuration list for PBXNativeTarget "Cobagain" */;
+			buildPhases = (
+				CEBE11F519B993EA003E4235 /* Sources */,
+				CEBE11F619B993EA003E4235 /* Frameworks */,
+				CEBE11F719B993EA003E4235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cobagain;
+			productName = Cobagain;
+			productReference = CEBE11F919B993EA003E4235 /* Cobagain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBE121919B993EA003E4235 /* CobagainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBE122E19B993EA003E4235 /* Build configuration list for PBXNativeTarget "CobagainTests" */;
+			buildPhases = (
+				CEBE121619B993EA003E4235 /* Sources */,
+				CEBE121719B993EA003E4235 /* Frameworks */,
+				CEBE121819B993EA003E4235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBE122019B993EA003E4235 /* PBXTargetDependency */,
+			);
+			name = CobagainTests;
+			productName = CobagainTests;
+			productReference = CEBE121A19B993EA003E4235 /* CobagainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBE11F119B993EA003E4235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Cobagain;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gibeon;
+				TargetAttributes = {
+					CEBE121919B993EA003E4235 = {
+						TestTargetID = CEBE11F819B993EA003E4235;
+					};
+				};
+			};
+			buildConfigurationList = CEBE11F419B993EA003E4235 /* Build configuration list for PBXProject "Cobagain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBE11F019B993EA003E4235;
+			productRefGroup = CEBE11FA19B993EA003E4235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBE11F819B993EA003E4235 /* Cobagain */,
+				CEBE121919B993EA003E4235 /* CobagainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBE11F719B993EA003E4235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE121519B993EA003E4235 /* Images.xcassets in Resources */,
+				CEBE120719B993EA003E4235 /* InfoPlist.strings in Resources */,
+				CEBE123219B99473003E4235 /* ButtonView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE121819B993EA003E4235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE122619B993EA003E4235 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBE11F519B993EA003E4235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE120D19B993EA003E4235 /* CobagainAppDelegate.m in Sources */,
+				CEBE121319B993EA003E4235 /* CobagainViewController.m in Sources */,
+				CEBE120919B993EA003E4235 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBE121619B993EA003E4235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBE122819B993EA003E4235 /* CobagainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBE122019B993EA003E4235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBE11F819B993EA003E4235 /* Cobagain */;
+			targetProxy = CEBE121F19B993EA003E4235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBE120519B993EA003E4235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE120619B993EA003E4235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEBE122419B993EA003E4235 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBE122519B993EA003E4235 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBE122919B993EA003E4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBE122A19B993EA003E4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBE122C19B993EA003E4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cobagain/Cobagain-Prefix.pch";
+				INFOPLIST_FILE = "Cobagain/Cobagain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEBE122D19B993EA003E4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cobagain/Cobagain-Prefix.pch";
+				INFOPLIST_FILE = "Cobagain/Cobagain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEBE122F19B993EA003E4235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cobagain.app/Cobagain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cobagain/Cobagain-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CobagainTests/CobagainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEBE123019B993EA003E4235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cobagain.app/Cobagain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cobagain/Cobagain-Prefix.pch";
+				INFOPLIST_FILE = "CobagainTests/CobagainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBE11F419B993EA003E4235 /* Build configuration list for PBXProject "Cobagain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE122919B993EA003E4235 /* Debug */,
+				CEBE122A19B993EA003E4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBE122B19B993EA003E4235 /* Build configuration list for PBXNativeTarget "Cobagain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE122C19B993EA003E4235 /* Debug */,
+				CEBE122D19B993EA003E4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBE122E19B993EA003E4235 /* Build configuration list for PBXNativeTarget "CobagainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBE122F19B993EA003E4235 /* Debug */,
+				CEBE123019B993EA003E4235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBE11F119B993EA003E4235 /* Project object */;
+}
